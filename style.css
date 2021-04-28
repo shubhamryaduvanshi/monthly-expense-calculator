@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(243, 197, 136);
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    height: 90vh;
+    display: grid;
+    margin: 20px;
+    padding: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 15px;
+}
+.gridbox{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 4px 9px gray;
+}
+.getdata h1{
+    padding-top: 15px;
+    color: slateblue;
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: 700;
+}
+label{
+    font-size:1.4em;
+}
+.inputfield{
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 1.3em;
+    width: 80%;
+    font-weight: 600;
+}
+button{
+    font-size:1.4em;
+    padding: 5px 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.getdata #getbudget{
+    border: 1.5px solid rgb(243, 197, 136);
+}
+
+.getdata .expenseboxes{
+    margin: 10% 20%;
+    padding: 10px;
+}
+.expenseboxes #budgetbtn{
+    color: rgb(179, 111, 23);
+    border: 2px solid rgb(243, 197, 136);
+}
+.getdata #getexpense{
+    border: 1.5px solid slateblue;
+}
+.getdata #getexpense #expensebtn{
+    border: 2px solid slateblue;
+    color: slateblue;
+}
+
+/*-----------Second Div for Displaying data----------------*/
+.displaydatatopfields{
+    margin: 50px 60px;
+    display: grid;
+    grid-template-columns:200px 200px 200px;
+    grid-template-rows: 200px;
+    grid-gap: 20px;
+}
+.displaydatatopfields .items{
+    border-radius: 5px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.displaydatatopfields .showbudgetbox{
+  border: 1.5px solid slateblue;
+ 
+}
+.displaydatatopfields .showexpensesbox{
+ border: 1.5px solid red;
+}
+.displaydatatopfields .showbalancebox{
+    border: 1.5px solid slateblue;
+}
+.displaydatatopfields .items #displaydatagridboxestitle{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+.displaydatatopfields .items .fa{
+color: slateblue;
+font-size: 3em;
+
+}
+.displaydatatopfields .items .amountdetails{
+    margin-top:5px;
+    overflow: hidden;
+    font-size: 3.2em;
+    font-weight: 700;
+}
+.displaydatatopfields .items #setbudget{
+    color: rgb(9, 212, 9);
+}
+.displaydatatopfields .items #setexpense{
+    color: crimson;
+}
+.displaydatatopfields .items #setbalance{
+    color: rgb(9, 212, 9);
+}
+.container .gridbox #expensemanager{
+    padding:30px 70px;
+    font-size: 1.5em;
+    line-height: 2em;
+    text-transform: uppercase;
+}
