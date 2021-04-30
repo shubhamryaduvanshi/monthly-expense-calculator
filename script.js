@@ -9,5 +9,6 @@ function addexpense(){
     var balaceremaining = `${bgtamt}`-`${expenseamnt}`;
     document.getElementById('setexpense').innerHTML=`${expenseamnt}`;
     document.getElementById('setbalance').innerHTML=`${balaceremaining}`;
-document.getElementById('expensemanager').innerHTML=` <b>Title &nbsp; Amount</b><br>${expensedescription} &nbsp; ${expenseamnt} `;
+document.getElementById('expensemanager').innerHTML=` <b>Description &nbsp; Amount</b><br>${expensedescription} &nbsp; ${expenseamnt} `;
 }
+
